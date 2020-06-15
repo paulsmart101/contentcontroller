@@ -6,7 +6,7 @@ def gettoken():
     # Secret: AkeMV2oXbhAAz9nXVPXDkzZ2obmT
     
     url = "https://awsacademy.contentcontroller.com/api/public/v1/auth"
-    userAndPass = base64.b64encode(b"tgwMtl8X09KC-m1VlEgC:AkeMV2oXbhAAz9nXVPXDkzZ2obmT").decode("ascii")
+    userAndPass = base64.b64encode(b"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx").decode("ascii")
     payload = "grant_type=client_credentials"
     headers = {
         'Accept': "application/json",
